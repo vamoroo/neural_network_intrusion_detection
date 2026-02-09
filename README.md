@@ -168,3 +168,114 @@ F1-Score: > 92% overall
 
 Inference time: < 100ms per connection
 
+🧩 Code Structure
+
+Main Functions
+# 1. Loading and cleaning
+def load_dataset_and_clean(path):
+    """
+    Load and clean the dataset
+    Returns: features (DataFrame), labels (Series)
+    """
+
+# 2. Dataset information
+def information_about_dset(X, y):
+    """
+    Analyze dataset structure
+    Returns: shape, number of classes
+    """
+
+# 3. Feature separation
+def split_into_cat_and_num(X):
+    """
+    Separate numeric and categorical features
+    Returns: df_numeric, df_categorical
+    """
+
+Main Notebook (dl_project.ipynb)
+Import required libraries
+
+Build dataset with feature names
+
+Convert targets to attack types
+
+Export to CSV for future use
+
+Detailed analysis of data
+
+Visualization of categorical features
+
+🔧 Tools & Technologies
+Languages & Libraries
+Python - Main development language
+
+Pandas - Data manipulation and analysis
+
+NumPy - Numerical computations and matrix operations
+
+Environment
+Jupyter Notebook - Interactive development environment
+
+Google Colab - Cloud execution alternative
+
+Git - Version control
+
+Data Processing
+StandardScaler - Normalization of numerical features
+
+LabelEncoder/OneHotEncoder - Encoding of categorical variables
+
+train_test_split - Train/test/validation split
+
+Matplotlib & Seaborn - Data visualization
+
+Scikit-learn - Preprocessing and model evaluation
+
+🤝 Contributing
+Contributions are welcome! To contribute:
+
+Fork the project
+
+Create a branch (git checkout -b feature/AmazingFeature)
+
+Commit your changes (git commit -m 'Add some AmazingFeature')
+
+Push to the branch (git push origin feature/AmazingFeature)
+
+Open a Pull Request
+
+Contribution Guidelines
+Follow existing code style
+
+Add tests for new features
+
+Update documentation
+
+Ensure all tests pass
+
+📝 License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+👤 Author
+Vamoro CAMARA
+
+GitHub: @vamoroo
+
+LinkedIn: vamoro-camara
+
+Email: cvamorocamson@gmail.com
+
+🙏 Acknowledgments
+University of California, Irvine for the NSL-KDD dataset
+
+Open source community for tools and libraries
+
+All contributors and testers
+
+📚 References
+Tavallaee, M., Bagheri, E., Lu, W., & Ghorbani, A. A. (2009). A detailed analysis of the KDD CUP 99 data set.
+
+NSL-KDD Dataset. UCI Machine Learning Repository.
+
+TensorFlow Documentation. Multi-class classification.
+
